@@ -4,7 +4,7 @@ This is simple point of sale for retail store which is developed in java JavaFx.
 ## Screenshots
 
 ### Screenshot - 1
-![Screenshot 1](https://raw.github.com/inforkgodara/pos-javafx/RPOS/master/screenshots/Capture1.PNG?raw=true "java-pos")
+![Screenshot 1](https://raw.github.com/inforkgodara/pos-javafx/master/RPOS/screenshots/Capture1.PNG?raw=true "java-pos")
 
 ### Screenshot - 2
 ![Screenshot 2](https://raw.github.com/inforkgodara/pos-javafx/master/screenshots/Capture2.png?raw=true "java-pos")
