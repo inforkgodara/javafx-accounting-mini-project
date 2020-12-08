@@ -434,7 +434,7 @@ public class AddPurchaseController implements Initializable {
         LocalDate documentDate = LocalDate.now();
         try {
             Statement stmt = con.createStatement();
-            ResultSet rs1 = stmt.executeQuery("select pos_sequence.nextval from dual");
+            ResultSet rs1 = stmt.executeQuery("select purchases_order_id.nextval from dual");
             rs1.next();
             int posSequence = rs1.getInt("nextval");
             String query = "insert into purchases (order_id,TOTAL_QUANTITY,TOTAL_AMOUNT,OTHER_AMOUNT,TOTAL_PAYBLE_AMOUNT,"
